@@ -1,6 +1,6 @@
 export interface Country {
     name: string;
-    peoples: People[]
+    people: People[]
 }
 
 export interface People {

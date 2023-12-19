@@ -5,7 +5,7 @@
 ## To run the script
 
 - Install dependencies using `npm install`
-- Run the following command `npm run start`
+- Run the following command `npm run start --arg=value`
 - Run unit tests using `npm run test`
 
 ## Filter
