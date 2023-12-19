@@ -1,0 +1,23 @@
+{
+  "name": "adeo_developer_test",
+  "version": "1.0.0",
+  "description": "# Javascript developer test",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delta6259/adeo_developer_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Delta6259/adeo_developer_test/issues"
+  },
+  "homepage": "https://github.com/Delta6259/adeo_developer_test#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
