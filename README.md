@@ -1,5 +1,3 @@
-# adeo_developer_test
-
 # Javascript developer test
 
 ## To run the script
