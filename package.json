@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "# Javascript developer test",
   "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +19,9 @@
   },
   "homepage": "https://github.com/Delta6259/adeo_developer_test#readme",
   "devDependencies": {
+    "jest": "^29.7.0",
     "@types/node": "^20.10.5",
     "typescript": "^5.3.3"
-  }
+  },
+  "dependencies": {}
 }

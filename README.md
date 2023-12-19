@@ -2,6 +2,12 @@
 
 # Javascript developer test
 
+## To run the script
+
+- Install dependencies using `npm install`
+- Run the following command `npm run start`
+- Run unit tests using `npm run test`
+
 ## Filter
 
 Your job is to write a command-line interface in Node.js.
