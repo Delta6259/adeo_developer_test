@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npx tsc",
     "start": "npm run build && node build/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "@types/node": "^20.10.5",
     "typescript": "^5.3.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/jest": "^29.5.11",
+    "ts-jest": "^29.1.1"
+  }
 }
