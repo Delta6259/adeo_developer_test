@@ -1,6 +1,5 @@
-import { Country } from "./types";
 import countries from "./data";
-import { filter } from "./countries-operations";
+import {count, filter} from "./countries-operations";
 
 const run = () => {
     const filterArgument: string | undefined = process.env.npm_config_filter;
@@ -9,7 +8,7 @@ const run = () => {
     if (filterArgument) {
         console.log(JSON.stringify(filter(countries, filterArgument)));
     } else if (countArgument) {
-        console.log(JSON.stringify(countries));
+        console.log(JSON.stringify(count(countries)));
     } else {
         console.log(JSON.stringify(countries));
     }

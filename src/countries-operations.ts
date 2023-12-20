@@ -15,3 +15,18 @@ export const filter = (countries: Country[], pattern: string): Country[] => {
         })
         .filter(c => c.people.length)
 };
+
+export const count = (countries: Country[]): Country[] => {
+    return countries
+        .map(country => {
+            return {
+                name: `${country.name} [${country.people?.length || 0}]`,
+                people: country.people.map(p => {
+                    return {
+                        name: `${p.name} [${p.animals?.length || 0}]`,
+                        animals: p.animals
+                    }
+                })
+            }
+        })
+}
