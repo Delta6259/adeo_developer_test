@@ -6,7 +6,10 @@ const run = () => {
     const countArgument: string | undefined = process.env.npm_config_count;
 
     if (filterArgument) {
-        console.log(JSON.stringify(filter(countries, filterArgument)));
+        const filteredCountries = filter(countries, filterArgument);
+        if (filteredCountries.length) {
+            console.log(JSON.stringify(filteredCountries));
+        }
     } else if (countArgument) {
         console.log(JSON.stringify(count(countries)));
     } else {
